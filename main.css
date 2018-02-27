@@ -1,0 +1,146 @@
+/******************GLOBAL STYLING****************/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+/******************STYLING FOR MOBILE TO REMOVE LARGE IMAGE CONTENT****************/
+
+
+.consentInFullDocuments, .view-full, .view-full-tableTop {
+    display: none;
+}
+
+/******************HEADER STYLING****************/
+
+h1,h2,h3, p {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 150;
+}
+
+/******************TABLE STYLING****************/
+
+table {
+    width: 80%;
+    
+    }
+
+#main-table{
+   margin-bottom: 100px; 
+}
+
+#main-table a{
+   text-decoration: none;
+    color: #fff;
+}
+
+table, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+th {
+    height:50px;
+    padding: 5px;
+}
+
+.view, .shade {
+    background-color: blue;
+    color: #fff;
+}
+
+.view-full {
+    background-color: #ccff33;
+    color: #fff;
+}
+
+
+#main-table .view a:hover {
+    color: #ccff33;
+}
+
+#main-table .view-full a:hover {
+   color: blue;
+}
+
+
+/**********************SECTION  STYLING********************/
+.sectionTables, th {
+    text-align: left;
+}
+
+
+/**********************CONDITIONS STYLING********************/
+
+.section {
+    margin-left: 40px;
+}
+.conditions-title {
+    text-align: left;
+}
+
+.conditions-list, li {
+    padding: 5px;
+    text-align: left;
+}
+
+/**********************BUTTON STYLING********************/
+
+.button {
+    background-color: #ccff33;
+    border: #fff;
+    border-radius: 6px;
+    height: 70px;
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button a:active {
+    color: #fff;
+}
+
+.button:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+
+/**********************MEDIA QUERIES********************/
+
+@media only screen and (min-width: 768px) {
+  
+    /******************TABLE STYLING****************/
+.consentInFullDocuments, .view-full, .view-full-tableTop {
+    display: list-item;
+    list-style-type: none;
+}
+    
+.button {
+   height: 50px;
+}
+    
+
+}
